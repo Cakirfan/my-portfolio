@@ -121,6 +121,9 @@ header .profile {
   font-weight: 900;
 }
 /** ##### MY LOGO ###### */
+header {
+  box-shadow: 3px 10px 15px white inset;
+}
 
 header .profile h1 {
   color: #fff;
@@ -191,6 +194,7 @@ header .footer {
   bottom: 0;
   left: 0;
   transition: 0.4s;
+  box-shadow: 3px 5px 11px white inset;
 }
 
 header .footer p a {
@@ -252,7 +256,7 @@ main {
 #home {
   height: 100vh;
   width: 100%;
-  background-image: url("./images/myFoto.jpeg");
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/27/16/54/face-1283106_640.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
